@@ -5,7 +5,7 @@ from typing import Any, Optional, Tuple
 
 import openai
 from langchain import Cohere, LLMChain, OpenAI
-from langchain.llms import AI21
+from langchain.llms.ai21 import AI21
 from langchain.llms.base import BaseLLM
 
 from gpt_index.constants import MAX_CHUNK_SIZE, NUM_OUTPUTS
